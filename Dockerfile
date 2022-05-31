@@ -1,4 +1,4 @@
-FROM python:3.6.6-slim-stretch
+FROM python:3.6-slim-stretch
 
 RUN apt-get -qq update && apt-get install -qq -y \
   apt-utils \
